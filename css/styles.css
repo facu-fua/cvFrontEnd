@@ -1,0 +1,127 @@
+.light{
+    background-color: antiquewhite;
+}
+.dark{
+    background-color: rgb(104, 97, 88);
+}
+
+
+#headerTitle{
+    margin: 15px 15px 0px 0px;
+}
+#nav{
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+#nav a{
+    margin: 5px;
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+#themeButton{
+    border-radius: 15px;
+    background-color: rgb(96, 226, 96);
+    padding: 5px;
+}
+#themeButton:hover{
+    background-color: rgb(71, 163, 71);
+}
+
+#pageTitle{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+section div{
+    padding: 10px;
+    background-color: rgba(205, 92, 92, 0.356);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.title{
+    margin-left: 20px;
+}
+
+#infoPersonal{
+    display: flex;
+}
+#infoPersonal img{
+    width: 170px;
+    height: auto;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#footer{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+#footer ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+#footer ul li a{
+    padding: 7px;
+    border-radius: 20px;
+    border: solid 2px black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#aboutMe{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(205, 92, 92, 0.356);
+
+}
+#aboutMe img{
+    margin-right: 15px;
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
+}
+#aboutMe p{
+    border-radius: 15px;
+    padding: 5px;
+    height: fit-content;
+}
+
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.emailForm input{
+    margin: 0px 0px 5px 0px;
+    width: 400px;
+    height: fit-content;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.aboutUsContact{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+}
