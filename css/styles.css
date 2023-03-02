@@ -1,10 +1,9 @@
 .light{
-    background-color: antiquewhite;
+    background-color: rgb(172, 210, 237);
 }
 .dark{
     background-color: rgb(104, 97, 88);
 }
-
 
 #headerTitle{
     margin: 15px 15px 0px 0px;
@@ -22,12 +21,12 @@
     border-radius: 7px;
 }
 
-#themeButton{
+.button{
     border-radius: 15px;
     background-color: rgb(96, 226, 96);
     padding: 5px;
 }
-#themeButton:hover{
+.button:hover{
     background-color: rgb(71, 163, 71);
 }
 
@@ -38,12 +37,13 @@
 }
 
 section{
+    margin: 50px;
     display: flex;
     flex-direction: column;
 }
 section div{
     padding: 10px;
-    background-color: rgba(205, 92, 92, 0.356);
+    background-color: rgba(224, 226, 137, 0.726);
     margin: 10px;
     border-radius: 15px;
 }
@@ -66,11 +66,15 @@ section div{
 #footer{
     color: rgb(0, 0, 0);
     padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(224, 226, 137, 0.726);
 }
 #footer ul{
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
+}
+#footer ul li{
+    list-style-type: none;
 }
 #footer ul li a{
     padding: 7px;
@@ -86,7 +90,7 @@ section div{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    background-color: rgba(205, 92, 92, 0.356);
+    background-color: rgba(224, 226, 137, 0.726);;
 
 }
 #aboutMe img{
@@ -118,10 +122,14 @@ section div{
     margin-right: 10px;
 }
 
-.aboutUsContact{
+.contact{
     margin: 10px;
     padding: 10px;
     display: flex;
+    border: solid black 1px;
     width: fit-content;
-    border-radius: 5px;
+    border-radius: 20px;
+}
+.status{
+    background-color: rgba(0, 0, 0, 0);
 }

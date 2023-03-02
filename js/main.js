@@ -1,6 +1,6 @@
 
 //Cambiar tema del sitio
-let themebutton = document.getElementById("themeButton");
+let themebutton = document.querySelector(".theme");
 let theme = document.getElementsByTagName("body")[0];
 
 themebutton.onclick = () =>{
@@ -13,6 +13,7 @@ themebutton.onclick = () =>{
     }
 };
 
+//Mensaje por form
 let emailForm = document.querySelector(".emailForm");
 emailForm.onsubmit = (e) =>{
     e.preventDefault();
